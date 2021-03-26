@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CarClassLibrary;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,65 @@ namespace CarStoreGUI
 {
     public partial class Form1 : Form
     {
+        Store s = new Store();
+        BindingSource carInventoryBindingSource = new BindingSource();
+        BindingSource cartBindingSource = new BindingSource();
         public Form1()
         {
             InitializeComponent();
+        }
+
+
+        private void btn_create_car_Click(object sender, EventArgs e)
+        {
+            decimal price = 0;
+            if (decimal.TryParse(txt_price.Text, out price))
+             {
+                 Car c = new Car(txt_make.Text, txt_model.Text, price);
+                 s.CarList.Add(c);
+                 carInventoryBindingSource.ResetBindings(false);
+
+             }
+             else {
+                 MessageBox.Show("Use a number for a price");
+             }
+            // Car c = new Car(txt_make.Text,txt_model.Text,decimal.Parse(txt_price.Text));
+
+
+            txt_make.Clear();
+            txt_model.Clear();
+            txt_price.Clear();
+        }
+
+        private void btn_add_to_cart_Click(object sender, EventArgs e)
+        {
+            int selectedIndex = lst_inventory.SelectedIndex;
+            Car selectedCar = s.CarList[selectedIndex];
+
+            s.ShoppingList.Add(selectedCar);
+            cartBindingSource.ResetBindings(false);
+           
+        }
+
+        private void btn_checkout_Click(object sender, EventArgs e)
+        {
+            decimal cost = s.Checkout();
+
+            lbl_total.Text = cost.ToString() + "$";
+            s.ShoppingList.Clear();
+            cartBindingSource.ResetBindings(false);
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            carInventoryBindingSource.DataSource = s.CarList;
+            lst_inventory.DataSource = carInventoryBindingSource;
+            cartBindingSource.DataSource = s.ShoppingList;
+            lst_cart.DataSource = cartBindingSource;
+
+            lst_cart.DisplayMember = ToString();
+            lst_inventory.DisplayMember = ToString();
         }
     }
 }

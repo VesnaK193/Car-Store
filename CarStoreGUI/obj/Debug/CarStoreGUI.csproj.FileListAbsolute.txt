@@ -1,0 +1,13 @@
+E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarStoreGUI\bin\Debug\CarStoreGUI.exe.config
+E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarStoreGUI\bin\Debug\CarStoreGUI.exe
+E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarStoreGUI\bin\Debug\CarStoreGUI.pdb
+E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarStoreGUI\bin\Debug\CarClassLibrary.dll
+E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarStoreGUI\bin\Debug\CarClassLibrary.pdb
+E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarStoreGUI\obj\Debug\CarStoreGUI.csprojAssemblyReference.cache
+E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarStoreGUI\obj\Debug\CarStoreGUI.Form1.resources
+E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarStoreGUI\obj\Debug\CarStoreGUI.Properties.Resources.resources
+E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarStoreGUI\obj\Debug\CarStoreGUI.csproj.GenerateResource.cache
+E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarStoreGUI\obj\Debug\CarStoreGUI.csproj.CoreCompileInputs.cache
+E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarStoreGUI\obj\Debug\CarStoreGUI.csproj.CopyComplete
+E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarStoreGUI\obj\Debug\CarStoreGUI.exe
+E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarStoreGUI\obj\Debug\CarStoreGUI.pdb
