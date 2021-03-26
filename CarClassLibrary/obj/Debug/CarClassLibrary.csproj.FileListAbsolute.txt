@@ -1,6 +1,0 @@
-E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarClassLibrary\bin\Debug\CarClassLibrary.dll
-E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarClassLibrary\bin\Debug\CarClassLibrary.pdb
-E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarClassLibrary\obj\Debug\CarClassLibrary.csprojAssemblyReference.cache
-E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarClassLibrary\obj\Debug\CarClassLibrary.csproj.CoreCompileInputs.cache
-E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarClassLibrary\obj\Debug\CarClassLibrary.dll
-E:\Kursevi\C#\Projekti\CarStore\Car-Store\CarClassLibrary\obj\Debug\CarClassLibrary.pdb
